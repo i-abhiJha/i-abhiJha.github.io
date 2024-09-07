@@ -1,0 +1,242 @@
+body{
+    margin: 0px;
+}
+
+
+/* body header */
+#body-header{
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(images/macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+/* horizontal lists */
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-menu{
+    transition: color 0.8s, border-bottom 4s;
+}
+.nav-menu li a:hover{
+    color:aqua;
+    border-bottom: 1px solid white;
+}
+.text-centre{
+    text-align: center;
+}
+
+
+/* name and social containers */
+
+#name-social-container{
+    margin-top: 20vh;
+}
+
+#myname{
+    font-size:3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li a{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+.social-icons li a:hover
+{
+    box-shadow: -3px 3px 3px -3px darkgrey;
+}
+
+
+/* about section */
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#my-image{
+    height: 16rem;
+    width: 16rem;
+    margin:auto;
+    margin-top: -17vh;
+    
+}
+
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 4px rgb(46, 195, 195);
+}
+#about-para{
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: gray;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+#my-name{
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
+/* General Styles for Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Education Section */
+#education {
+    background-color: #eaf4f4; /* Soft background color */
+}
+
+#education h2 {
+    font-size: 2.5rem;
+    color: #024950; /* Darker color for section title */
+    margin-bottom: 1.5rem;
+}
+
+#education h3 {
+    font-size: 1.6rem;
+    color: #04A4AF; /* Accent color for subsection titles */
+    margin-bottom: 0.5rem;
+}
+
+#education p {
+    font-size: 1.2rem;
+    color: #333; /* Darker text color for readability */
+    line-height: 1.8;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f4f4f4; /* Light background color */
+}
+
+#skills h2 {
+    font-size: 2.5rem;
+    color: #024950; /* Darker color for section title */
+    margin-bottom: 1.5rem;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: gray;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #eaf4f4; /* Soft background color */
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    color: #024950; /* Darker color for section title */
+    margin-bottom: 1.5rem;
+}
+
+#projects h3 {
+    font-size: 1.6rem;
+    color: #04A4AF; /* Accent color for project titles */
+    margin-bottom: 0.5rem;
+}
+
+#projects p {
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: gray;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f4f4f4; /* Light background color */
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    color: #024950; /* Darker color for section title */
+    margin-bottom: 1.5rem;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    color: #333; /* Darker text color for readability */
+    line-height: 1.8;
+}
+
+#contact a {
+    color: #04A4AF; /* Match theme color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    color: #024950; 
+}
+
